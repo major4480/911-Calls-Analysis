@@ -22,6 +22,13 @@ Analysis of 911, a log of 911 (emergency) call records from Montgomery County, P
 | Traffic | 35,695 | 35.9% |
 | Fire | 14,920 | 15.0% |
 
+**Most common single call types:**
+1. Traffic: Vehicle Accident — 23,066
+2. Traffic: Disabled Vehicle — 7,702
+3. Fire: Fire Alarm — 5,496
+4. EMS: Respiratory Emergency — 5,112
+5. EMS: Cardiac Emergency — 5,012
+
 ### Process
 -I imported the csv file into the Jupyter Notebook
 -In the dataset I had latitude, longitude, address, zip code, title, TimeStamp and twp
