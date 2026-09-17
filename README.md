@@ -12,6 +12,15 @@ Analysis of 911, a log of 911 (emergency) call records from Montgomery County, P
 | Missing values | `zip`: 12,855 missing · `twp`: 43 missing · `addr`: 519 missing |
 | Unique call titles | 110 |
 
+## Key findings
+
+**Call volume by reason** — EMS dominates:
+
+| Reason | Calls | Share |
+|---|---|---|
+| EMS | 48,877 | 49.1% |
+| Traffic | 35,695 | 35.9% |
+| Fire | 14,920 | 15.0% |
 
 ### Process
 -I imported the csv file into the Jupyter Notebook
