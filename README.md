@@ -72,3 +72,5 @@ Reading the heatmap:
 - **Rows (days) cluster Saturday and Sunday together** again, separate from the five weekdays — the same weekend-vs-weekday structure seen in the hour-based clustermap, reappearing independently in the month-based view. This is a good consistency check: two different groupings of the same underlying data both recover the same day-of-week split.
 - Within weekdays, Wednesday and Thursday cluster most tightly (both spike in June), while Friday sits a bit apart (its own high month is July, not June).
 
+Takeaway from both clustermaps: the dendrograms consistently isolate a "weekend" cluster (Sat + Sun) from a "weekday" cluster (Mon–Fri) — this is the strongest and most reliable pattern in the whole dataset. On the column side, they separate genuine behavioral clusters (hour-of-day case) from an artifact of incomplete data (month case) — a useful reminder that clustering will faithfully group whatever pattern is in the data, whether it's meaningful (daytime vs. night) or an artifact (partial months), so results should always be checked against what's actually being measured.
+
