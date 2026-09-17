@@ -33,7 +33,7 @@ Analysis of 911, a log of 911 (emergency) call records from Montgomery County, P
 -I imported the csv file into the Jupyter Notebook
 -In the dataset I had latitude, longitude, address, zip code, title, TimeStamp and twp
 -I was able to see that there are 110 unique title codes
--I used seaborn to create a countplot and discovered that the REASON why people call 911 is because of EMS
+-I used seaborn to create a countplot and discovered that the REASON why people call 911 the most is because of EMS
 -I used the .apply() method to create new columns called: Hour, Month and Days of Week.
 -I then used seaborn to draw countplot of separate plots, Month and Days of week to check again and still discovered that EMS is the top one.
 -
